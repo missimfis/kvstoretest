@@ -12,4 +12,4 @@ except:
   import os
   selfnode = os.getenv("APP_DNS")
   if not selfnode:
-selfnode = bootstrapnode
+    selfnode = bootstrapnode
