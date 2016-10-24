@@ -14,4 +14,4 @@ def getparticipants(bootstrapnode):
         queriedparticipants = l.split(",")
     except:
         queriedparticipants = []
-return queriedparticipants
+    return queriedparticipants
