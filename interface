@@ -1,0 +1,13 @@
+/registry[/<tenant>]
+ -> GET: return comma-separated list of nodes, for one or all tenants
+/registry/<tenant>/<node-to-register>
+ -> GET: register node in the registry
+ -> GET: return message about success
+/leader
+ -> GET: initiate leader election
+ -> GET: return leader node
+/store
+ -> GET: return comma-separated list of key-value pairs
+/store/<key>=<value>
+ -> GET: store the key-value pair
+-> GET: return message about success
