@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 port = 8080
-host = 'localhost'
+host = ''
 
 import urllib.request
 import registry
