@@ -7,21 +7,3 @@ mediaType: application/html
 documentation:
   - title: KV Store Documentation
     content: !include README.md
-securitySchemes:
-  - oauth_2_0:
-      description: |
-        Acme uses OAuth2 to authenticate most requests
-      type: OAuth 2.0
-      describedBy:
-        headers:
-          Authorization:
-            description: |
-              Used to send a valid OAuth 2 access token. Do not use
-              with the "access_token" query string parameter.
-            type: string
-        queryParameters:
-          access_token:
-            description: |
-              Used to send a valid OAuth 2 access token. Do not use together with
-              the "Authorization" header
-            type: string
